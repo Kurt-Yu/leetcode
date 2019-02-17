@@ -8,7 +8,9 @@ LeetCode
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|993|[Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/) | [Python](./algorithms/python/CousinsInBinaryTree/isCousins.py)|Easy|
 |988|[Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/) | [Python](./algorithms/python/SmallestStringStartingFromLeaf/smallestFromLeaf.py)|Medium|
+|979|[Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree/) | [Python](./algorithms/python/DistributeCoinsInBinaryTree/distributeCoins.py)|Medium|
 |978|[Longest Turbulent Subarray](https://leetcode.com/problems/longest-turbulent-subarray/) | [Python](./algorithms/python/LongestTurbulentSubarray/maxTurbulenceSize.py)|Medium|
 |977|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | [Python](./algorithms/python/SquaresOfSortedArray/sortedSquares.py)|Easy|
 |976|[Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/) | [Python](./algorithms/python/LargestPerimeterTriangle/largestPerimeter.py)|Easy|
@@ -27,6 +29,7 @@ LeetCode
 |894|[All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees/) | [Python](./algorithms/python/AllPossibleFullBinaryTrees/allPossibleFBT.py)|Medium|
 |872|[Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/) | [Python](./algorithms/python/Leaf-SimilarTrees/leafSimilar.py)|Easy|
 |865|[Smallest Subtree with all the Deepest Nodes](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/) | [Python](./algorithms/python/SmallestSubtreeWithAllTheDeepestNodes/subtreeWithAllDeepest.py)|Medium|
+|863|[All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) | [Python](./algorithms/python/AllNodesDistanceKInBinaryTree/distanceK.py)|Medium|
 |859|[Buddy Strings](https://leetcode.com/problems/buddy-strings/description/) | [C++](./algorithms/cpp/buddyStrings/BuddyStrings.cpp)|Easy|
 |858|[Mirror Reflection](https://leetcode.com/problems/mirror-reflection/description/) | [C++](./algorithms/cpp/mirrorReflection/MirrorReflection.cpp)|Medium|
 |852|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/description/) | [C++](./algorithms/cpp/peakIndexInAMountainArray/PeakIndexInAMountainArray.cpp)|Easy|
@@ -74,6 +77,7 @@ LeetCode
 |513|[Find Bottom Left Tree Value](https://leetcode.com/problems/find-bottom-left-tree-value/) | [Python](./algorithms/python/FindBottomLeftTreeValue/findBottomLeftValue.py)|Medium|
 |509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/) | [Python](./algorithms/python/FibonacciNumber/fib.py)|Easy|
 |508|[Most Frequent Subtree Sum](https://leetcode.com/problems/most-frequent-subtree-sum/) | [Python](./algorithms/python/MostFrequentSubtreeSum/findFrequentTreeSum.py)|Medium|
+|501|[Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/) | [Python](./algorithms/python/FindModeInBinarySearchTree/findMode.py)|Easy|
 |477|[Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/) | [C++](./algorithms/cpp/totalHammingDistance/totalHammingDistance.cpp)|Medium|
 |450|[DeleteNodeInABST](https://leetcode.com/problems/delete-node-in-a-bst/) | [Python](./algorithms/python/DeleteNodeInABST/deleteNode.py)|Medium|
 |449|[Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/) | [Python](./algorithms/python/SerializeAndDeserializeBST/serialize.py)|Medium|
@@ -288,9 +292,9 @@ LeetCode
 |115|[Distinct Subsequences](https://oj.leetcode.com/problems/distinct-subsequences/)| [C++](./algorithms/cpp/distinctSubsequences/distinctSubsequences.cpp)|Hard|
 |114|[Flatten Binary Tree to Linked List](https://oj.leetcode.com/problems/flatten-binary-tree-to-linked-list/)| [C++](./algorithms/cpp/flattenBinaryTreeToLinkedList/flattenBinaryTreeToLinkedList.cpp), [Python](./algorithms/python/FlattenBinaryTreeToLinkedList/flatten.py)|Medium|
 |113|[Path Sum II](https://oj.leetcode.com/problems/path-sum-ii/)| [C++](./algorithms/cpp/pathSum/pathSum.II.cpp), [Python](./algorithms/python/PathSumII/pathSum.py)|Medium|
-|112|[Path Sum](https://oj.leetcode.com/problems/path-sum/)| [C++](./algorithms/cpp/pathSum/pathSum.cpp)|Easy|
-|111|[Minimum Depth of Binary Tree](https://oj.leetcode.com/problems/minimum-depth-of-binary-tree/)| [C++](./algorithms/cpp/minimumDepthOfBinaryTree/minimumDepthOfBinaryTree.cpp)|Easy|
-|110|[Balanced Binary Tree](https://oj.leetcode.com/problems/balanced-binary-tree/)| [C++](./algorithms/cpp/balancedBinaryTree/balancedBinaryTree.cpp), [Java](./algorithms/java/src/balancedBinaryTree/balancedBinaryTree.java)|Easy|
+|112|[Path Sum](https://oj.leetcode.com/problems/path-sum/)| [C++](./algorithms/cpp/pathSum/pathSum.cpp), [Python](./algorithms/python/PathSum/hasPathSum.py)|Easy|
+|111|[Minimum Depth of Binary Tree](https://oj.leetcode.com/problems/minimum-depth-of-binary-tree/)| [C++](./algorithms/cpp/minimumDepthOfBinaryTree/minimumDepthOfBinaryTree.cpp), [Python](./algorithms/python/MinimumDepthOfBinaryTree/minDepth.py)|Easy|
+|110|[Balanced Binary Tree](https://oj.leetcode.com/problems/balanced-binary-tree/)| [C++](./algorithms/cpp/balancedBinaryTree/balancedBinaryTree.cpp), [Java](./algorithms/java/src/balancedBinaryTree/balancedBinaryTree.java), [Python](./algorithms/python/BalancedBinaryTree/isBalanced.py)|Easy|
 |109|[Convert Sorted List to Binary Search Tree](https://oj.leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)| [C++](./algorithms/cpp/convertSortedListToBinarySearchTree/convertSortedListToBinarySearchTree.cpp)|Medium|
 |108|[Convert Sorted Array to Binary Search Tree](https://oj.leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)| [C++](./algorithms/cpp/convertSortedArrayToBinarySearchTree/convertSortedArrayToBinarySearchTree.cpp), [Python](./algorithms/python/ConvertSortedArrayToBinarySearchTree/sortedArrayToBST.py)|Medium|
 |107|[Binary Tree Level Order Traversal II](https://oj.leetcode.com/problems/binary-tree-level-order-traversal-ii/)| [C++](./algorithms/cpp/binaryTreeLevelOrderTraversal/binaryTreeLevelOrderTraversal.II.cpp), [Python](./algorithms/python/BinaryTreeLevelOrderTraversalII/levelOrderBottom.py)|Easy|
@@ -299,7 +303,7 @@ LeetCode
 |104|[Maximum Depth of Binary Tree](https://oj.leetcode.com/problems/maximum-depth-of-binary-tree/)| [C++](./algorithms/cpp/maximumDepthOfBinaryTree/maximumDepthOfBinaryTree.cpp), [Java](./algorithms/java/src/maximumDepthOfBinaryTree/maximumDepthOfBinaryTree.java), [Python](./algorithms/python/MaximumDepthOfBinaryTree/maxDepth.py)|Easy|
 |103|[Binary Tree Zigzag Level Order Traversal](https://oj.leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)| [C++](./algorithms/cpp/binaryTreeZigzagLevelOrderTraversal/binaryTreeZigzagLevelOrderTraversal.cpp), [Python](./algorithms/python/BinaryTreeZigzagLevelOrderTraversal/zigzagLevelOrder.py)|Medium|
 |102|[Binary Tree Level Order Traversal](https://oj.leetcode.com/problems/binary-tree-level-order-traversal/)| [C++](./algorithms/cpp/binaryTreeLevelOrderTraversal/binaryTreeLevelOrderTraversal.cpp), [Java](./algorithms/java/src/binaryTreeLevelOrderTraversal/binaryTreeLevelOrderTraversal.java), [Python](./algorithms/python/BinaryTreeLevelOrderTraversal/levelOrder.py)|Easy|
-|101|[Symmetric Tree](https://oj.leetcode.com/problems/symmetric-tree/)| [C++](./algorithms/cpp/symmetricTree/symmetricTree.cpp)|Easy|
+|101|[Symmetric Tree](https://oj.leetcode.com/problems/symmetric-tree/)| [C++](./algorithms/cpp/symmetricTree/symmetricTree.cpp), [Python](./algorithms/python/SymmetricTree/isSymmetric.py)|Easy|
 |100|[Same Tree](https://oj.leetcode.com/problems/same-tree/)| [C++](./algorithms/cpp/sameTree/sameTree.cpp), [Python](./algorithms/python/SameTree/isSameTree.py)|Easy|
 |99|[Recover Binary Search Tree](https://oj.leetcode.com/problems/recover-binary-search-tree/)| [C++](./algorithms/cpp/recoverBinarySearchTree/recoverBinarySearchTree.cpp)|Hard|
 |98|[Validate Binary Search Tree](https://oj.leetcode.com/problems/validate-binary-search-tree/)| [C++](./algorithms/cpp/validateBinarySearchTree/validateBinarySearchTree.cpp), [Java](./algorithms/java/src/validateBinarySearchTree/validateBinarySearchTree.java), [Python](./algorithms/python/ValidateBinarySearchTree/isValidBST.py)|Medium|
