@@ -24,3 +24,21 @@ def isValidBST2(self, root):
     for i in range(len(inorder) - 1):
         if inorder[i + 1] <= inorder[i]: return False
     return True
+
+# Method 3: iterative inorder traversal
+def isValidBST2(self, root):
+    if not root: return True
+    stack = []
+	inorder = []
+	while root or stack:
+			while root:
+			stack.append(root)
+			root = root.left
+			
+			root = stack.pop()
+			inorder.append(root.val)
+			root = root.right
+
+	for i in range(len(inorder) - 1):
+			if inorder[i] >= inorder[i + 1]: return False
+	return True
