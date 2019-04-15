@@ -141,6 +141,7 @@ LeetCode
 |376|[Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/) | [C++](./algorithms/cpp/wiggleSubsequence/wiggleSubsequence.cpp)|Medium|
 |371|[Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/description/) | [C++](./algorithms/cpp/sumOfTwoIntegers/SumOfTwoIntegers.cpp)|Easy|
 |367|[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/description/) | [C++](./algorithms/cpp/validPerfectSquare/ValidPerfectSquare.cpp)|Easy|
+|361|[Bomb Enemy](https://leetcode.com/problems/bomb-enemy/) | [Python](./algorithms/python/BombEnemy/maxKilledEnemies.py)|Medium|
 |350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | [C++](./algorithms/cpp/intersectionOfTwoArrays/intersectionOfTwoArraysII.cpp)|Easy|
 |349|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | [C++](./algorithms/cpp/intersectionOfTwoArrays/intersectionOfTwoArrays.cpp)|Easy|
 |347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [C++](./algorithms/cpp/topKFrequentElements/topKFrequentElements.cpp)|Medium|
@@ -164,7 +165,7 @@ LeetCode
 |322|[Coin Change](https://leetcode.com/problems/coin-change/) | [C++](./algorithms/cpp/coinChange/coinChange.cpp)|Medium|
 |321|[Create Maximum Number](https://leetcode.com/problems/create-maximum-number/) | [C++](./algorithms/cpp/createMaximumNumber/CreateMaximumNumber.cpp)|Hard|
 |319|[Bulb Switcher](https://leetcode.com/problems/bulb-switcher/) | [C++](./algorithms/cpp/bulbSwitcher/bulbSwitcher.cpp)|Medium|
-|318|[Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/) | [C++](./algorithms/cpp/maximumProductOfWordLengths/MaximumProductOfWordLengths.cpp)|Medium|
+|318|[Maximum Product of Word Lengths](https://leetcode.com/problems/maximum-product-of-word-lengths/) | [C++](./algorithms/cpp/maximumProductOfWordLengths/MaximumProductOfWordLengths.cpp), [Python](./algorithms/python/MaximumProductOfWordLengths/maxProduct.py)|Medium|
 |316|[Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/) | [C++](./algorithms/cpp/removeDuplicateLetters/RemoveDuplicateLetters.cpp)|Hard|
 |315|[Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) | [C++](./algorithms/cpp/countOfSmallerNumbersAfterSelf/countOfSmallerNumbersAfterSelf.cpp)|Hard|
 |313|[Super Ugly Number](https://leetcode.com/problems/super-ugly-number/) | [C++](./algorithms/cpp/superUglyNumber/SuperUglyNumber.cpp)|Medium|
